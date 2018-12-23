@@ -1,0 +1,202 @@
+ul {
+    display: inline;
+}
+body{
+    background-image: url("images/dog_autumn-wallpaper-1366x768.jpg");
+
+}
+/*body{*/
+    /*background:linear-gradient( 45deg,black,darkslategray);!important;*/
+    /*background-repeat: initial;*/
+    /*!*margin: 0px;*!*/
+/*}*/
+/*.appleLi{*/
+    /*list-style-position: inside;*/
+    /*border: white;*/
+/*}*/
+/*.apple-div ul li:hover ul{display: block;}*/
+.apple-div ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+    top: 23%;
+    left: 33%;
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+
+}
+.apple-div ul li ul li a{
+    background: black;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 3%;
+    text-decoration: none;
+    background: linear-gradient(45deg,black,darkslategray);
+    margin-left: 7%;
+}
+.apple-div ul li ul li a {display:block !important;}
+/*.apple-div ul li ul li a:hover {transform: scale(1.2)}*/
+.apple-div ul li i {
+    position: absolute;
+    top: 17%;
+    left: 31%;
+    font-size: 70px;
+    color: darkred;
+    text-shadow: 0px 0px 5px red;
+
+}
+
+
+
+/*.car-div ul li:hover ul{display: block}*/
+.car-div ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+    top: 30%;
+    left: 33%;
+    font-size: 20px;
+    list-style-type: none;
+}
+.car-div ul li ul li a{
+    background: black;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 3%;
+    background: linear-gradient(45deg,black,darkslategray);
+    text-decoration: none;
+    margin-left: 7%;
+}
+.car-div ul li ul li a {display:block !important;}
+/*.car-div ul li ul li a:hover {transform: scale(1.2)}*/
+.car-div ul li i {
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    font-size: 70px;
+    color: chocolate;
+text-shadow: 0px 0px 10px brown;
+}
+
+
+
+
+
+/*.file-div ul li:hover ul{display: block}*/
+.file-div ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+    top: 40%;
+    left: 33%;
+    font-size: 20px;
+    list-style-type: none;
+}
+.file-div ul li ul li a{
+    background: black;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 3%;
+    background: linear-gradient(45deg,black,darkslategray);
+    text-decoration: none;
+    margin-left: 7%;
+
+}
+.file-div ul li ul li a {display:block !important;}
+/*.file-div ul li ul li a:hover {transform: scale(1.2)}*/
+.file-div ul li i {
+    position: absolute;
+    top: 40%;
+    left: 31%;
+    font-size: 70px;
+    color: lightblue;
+    text-shadow: 0px 0px 10px blue;
+}
+
+
+/*.credit-div ul li:hover ul{display: block}*/
+.credit-div ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+    top: 53%;
+    left: 33%;
+    font-size: 20px;
+    list-style-type: none;
+}
+.credit-div ul li ul li a{
+    background: black;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 3%;
+    background: linear-gradient(45deg,black,darkslategray);
+    text-decoration: none;
+    margin-left: 7%;
+
+}
+.credit-div ul li ul li a {display:block !important;}
+/*.credit-div ul li ul li a:hover {transform: scale(1.2)}*/
+.credit-div ul li i {
+    position: absolute;
+    top: 54%;
+    left: 30%;
+    font-size: 70px;
+    color: darkgray;
+    text-shadow: 0px 0px 15px black ;
+}
+
+
+
+/*.fab-div ul li:hover ul{display: block}*/
+.fab-div ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+    top: 63%;
+    left: 33%;
+    font-size: 20px;
+    list-style-type: none;
+}
+.fab-div ul li ul li a{
+    background: black;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 3%;
+    background: linear-gradient(45deg,black,darkslategray);
+    text-decoration: none;
+   margin-left: 7%;
+
+
+}
+.fab-div ul li ul li a {display:block !important;}
+/*.fab-div ul li ul li a:hover {transform: scale(1.2)}*/
+.fab-div ul li i {
+    position: absolute;
+    top: 68%;
+    left: 31%;
+    font-size: 70px;
+    color: darkcyan;
+    text-shadow: 0px 0px 10px blue;
+
+}
+
+.car-div,.apple-div,.file-div,.credit-div,.fab-div{
+    margin-right: 50%;
+    margin-left: 50% ;
+
+}
+.main{
+
+    margin-top: 17%;
+    margin-left: -29%;
+}
+/*.apple-div ul li i :hover,.car-div ul li i:hover,.file-div ul li i:hover,*/
+/*.credit-div ul li i:hover,.fab-div ul li i:hover{*/
+    /*text-shadow: -38px 12px 1px gray;*/
+/*}*/

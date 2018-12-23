@@ -1,0 +1,158 @@
+body{
+    background-image: url("ocean2.jpg");
+}
+.clock {
+    background: #ececec;
+    width: 300px;
+    height: 300px;
+    margin: 8% auto 0;
+    border-radius: 50%;
+    border: 5px solid darkgray;
+    position: relative;
+    box-shadow: 0px 2px 100px black;
+    background-image: url("deep_ocean.jpg");
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ccc;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0 0 10px black;
+}
+
+.hourHand {
+    position: absolute;
+    z-index: 5;
+    width: 4px;
+    height: 65px;
+    background: white;
+    top: 79px;
+    transform-origin: 50% 72px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.minuteHand {
+    position: absolute;
+    z-index: 6;
+    width: 4px;
+    height: 100px;
+    background: white;
+    top: 46px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: 50% 105px;
+}
+
+.secondHand {
+    position: absolute;
+    z-index: 7;
+    width: 2px;
+    height: 120px;
+    background: lightcyan;
+    top: 26px;
+    lefT: 50%;
+    margin-left: -1px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: 50% 125px;
+}
+
+span {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    z-index: 4;
+}
+
+.h1{
+    top: 13%;
+    right: 84px;
+}
+.h2{
+    top: 26%;
+    right: 47px;
+}
+.h3 {
+    top: 140px;
+    right: 30px;
+}
+.h4{
+    top: 196px;
+    right: 45px;
+}
+.h5{
+     top: 229px;
+     right: 83px;
+ }
+.h6 {
+    bottom: 30px;
+    left: 50%;
+    margin-left: -5px;
+}
+.h7 {
+    bottom: 40px;
+    left: 89px;
+
+}
+.h8 {
+    bottom: 78px;
+    left: 50px;
+}
+.h9 {
+    left: 32px;
+    top: 140px;
+}
+.h10 {
+   top: 78px;
+    left: 47px;
+
+}
+.h11 {
+    top: 39px;
+    left: 88px;
+}
+.h12 {
+    top: 30px;
+    left: 50%;
+    margin-left: -8px;
+}
+
+
+
+.smallLines {
+    position: absolute;
+    z-index: 2;
+    width: 2px;
+    height: 15px;
+    background:white;
+    left: 50%;
+    margin-left: -1px;
+    transform-origin: 50% 150px;
+}
+.smallLines:nth-of-type(5n) {
+    position: absolute;
+    z-index: 2;
+    width: 4px;
+    height: 25px;
+    background: white;
+    left: 50%;
+    margin-left: -2px;
+    transform-origin: 50% 150px;
+}
+
+

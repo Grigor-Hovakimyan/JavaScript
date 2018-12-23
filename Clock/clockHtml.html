@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clock</title>
+    <link rel="stylesheet" href="clock.css" type="text/css">
+</head>
+<body>
+<div class="clock">
+    <div></div>
+    <div class="dot" onclick="center()" ></div>
+    <div>
+        <div class="hourHand"></div>
+        <div class="minuteHand"></div>
+        <div class="secondHand"></div>
+    </div>
+    <div id="span">
+        <span class="h1"  onclick="hN(this,'red')">1</span>
+        <span class="h2" onclick="hN(this,'blue')">2</span>
+        <span class="h3" onclick="hN(this,'black')">3</span>
+        <span class="h4" onclick="hN(this,'orange')">4</span>
+        <span class="h5" onclick="hN(this,'darkred')">5</span>
+        <span class="h6" onclick="hN(this,'brown')">6</span>
+        <span class="h7" onclick="hN(this,'gold')">7</span>
+        <span class="h8" onclick="hN(this,'blueviolet')">8</span>
+        <span class="h9" onclick="hN(this,'darksalmon')">9</span>
+        <span class="h10" onclick="hN(this,'green')">10</span>
+        <span class="h11" onclick="hN(this,'deeppink')">11</span>
+        <span class="h12" onclick="hN(this,'yellow')">12</span>
+    </div>
+    <div class="smallLines"></div>
+</div>
+<script src="clockJS.js"></script>
+<!--<script src="kmkmk.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Menu</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="newMenu.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+    <div class="apple-div">
+
+        <ul>
+            <li id="appleId" onclick="menuFunction()" class="appleLi"><i class="fab fa-apple"></i>
+                <ul id="appleNone" >
+                    <li id="appleLiLi" >
+                        <a class="linkApple" onclick="aFunc(this)" href="#">&nbsp;<strong>Apple models</strong>&nbsp;</a>
+                        <a class="linkApple" onclick="aFunc(this)" href="#">&nbsp;Mac Book Pro &nbsp;</a>
+                        <a class="linkApple" onclick="aFunc(this)" href="#">&nbsp;iPhone X&nbsp;</a>
+                        <a class="linkApple" onclick="aFunc(this)" href="#">&nbsp;iMac Retina&nbsp;</a>
+                        <a class="linkApple" onclick="aFunc(this)" href="#">&nbsp;Apple Watch&nbsp;</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+    <div class="car-div">
+
+        <ul>
+
+            <li class="car-li" onclick="carFunction()"><i class="fas fa-car"></i>
+                <ul id="carNone">
+                    <li class="file-li">
+                        <a class="linkCar" onclick="caFunc(this)" href="#">Transportation</a>
+                        <a class="linkCar" onclick="caFunc(this)" href="#">Plane</a>
+                        <a class="linkCar" onclick="caFunc(this)" href="#">Subway</a>
+                        <a class="linkCar" onclick="caFunc(this)" href="#">Automobile</a>
+                        <a class="linkCar" onclick="caFunc(this)" href="#">Motorcycle</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="file-div">
+
+        <ul>
+
+            <li onclick="fileFunction()"><i class="fas fa-file"></i>
+                <ul id="fileNone">
+                    <li class="file-li">
+                        <a class="linkFile" onclick="fFunc(this)" href="#"><strong>Files Type</strong></a>
+                        <a class="linkFile" onclick="fFunc(this)" href="#">File archive</a>
+                        <a class="linkFile" onclick="fFunc(this)" href="#">File image</a>
+                        <a class="linkFile" onclick="fFunc(this)" href="#">File audio</a>
+                        <a class="linkFile" onclick="fFunc(this)" href="#">File video</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="credit-div">
+
+        <ul>
+
+            <li onclick="creditFunction()"><i class="far fa-credit-card"></i>
+                <ul id="creditNone">
+                    <li class="payment-li">
+                        <a class="linkCredit" onclick="cFunc(this)" href="#">Payment</a>
+                        <a class="linkCredit" onclick="cFunc(this)" href="#">Master card</a>
+                        <a class="linkCredit" onclick="cFunc(this)" href="#">Visa card</a>
+                        <a class="linkCredit" onclick="cFunc(this)" href="#">Paypal card</a>
+                        <a class="linkCredit" onclick="cFunc(this)" href="#">Discover card</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="fab-div">
+
+        <ul>
+
+            <li onclick="fabFunction()"><i class="fab fa-gg-circle"></i>
+                <ul id="fabNone">
+                    <li class="currency-li">
+                        <a class="linkFab" onclick="faFunc(this)" href="#">Currency</a>
+                        <a class="linkFab" onclick="faFunc(this)" href="#">Bitcoin</a>
+                        <a class="linkFab" onclick="faFunc(this)" href="#">Dollar</a>
+                        <a class="linkFab" onclick="faFunc(this)" href="#">Euro</a>
+                        <a class="linkFab" onclick="faFunc(this)" href="#">Ruble</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="newMenu.js"></script>
+</body>
+</html>

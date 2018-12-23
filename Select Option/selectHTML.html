@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Select Option</title>
+    <link href="selectCss.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<select  title="Country" id="country" onchange="countryFunction(this)">
+    <option class="arm_yer" value="Armenia">Armenia</option>
+    <option class="rus_mos" value="Russia">Russia</option>
+    <option class="bel_bru" value="Belgium">Belgium</option>
+    <option class="can_ott" value="Canada">Canada</option>
+    <option class="egy_cai" value="Egypt">Egypt</option>
+    <option class="fra_par" value="France">France</option>
+    <option class="ger_ber" value="Germany">Germany</option>
+    <option class="ita_rom" value="Italy">Italy</option>
+    <option class="por_lis" value="Portugal">Portugal</option>
+    <option class="spa_mad" value="Spain">Spain</option>
+</select>
+
+<select onchange="countryFunction(this)" title="Capital City" id="capitalCity">
+    <option class="arm_yer" value="Yerevan">Yerevan</option>
+    <option class="rus_mos" value="Moscow">Moscow</option>
+    <option class="bel_bru" value="Brussels">Brussels</option>
+    <option class="can_ott" value="Ottawa">Ottawa</option>
+    <option class="egy_cai" value="Cairo">Cairo</option>
+    <option class="fra_par" value="Paris">Paris</option>
+    <option class="ger_ber" value="Berlin">Berlin</option>
+    <option class="ita_rom" value="Rome">Rome</option>
+    <option class="por_lis" value="Lisbon">Lisbon</option>
+    <option class="spa_mad" value="Madrid">Madrid</option>
+</select>
+<h1 id="h1"></h1>
+
+<script src="selectJS.js" ></script>
+</body>
+</html>
